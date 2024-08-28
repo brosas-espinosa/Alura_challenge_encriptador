@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <!-- Enlace a la fuente de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Texto</h1>
+    </header>
+
+    <main>
+        <section class="input-section">
+            <textarea id="input-text" placeholder="Ingrese su texto aquí"></textarea>
+        </section>
+        
+        <section class="button-section">
+            <button id="encrypt-btn">Encriptar</button>
+            <button id="decrypt-btn">Desencriptar</button>
+        </section>
+        
+        <section class="output-section">
+            <textarea id="output-text" placeholder="Resultado" readonly></textarea>
+            <button id="copy-btn">Copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Brenda Rosas</p>
+    </footer>
+
+    <script src="functions.js"></script>
+</body>
+</html>
